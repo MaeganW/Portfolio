@@ -291,3 +291,19 @@ i.fa.fa-github, i.fa.fa-eye {
     font-family: "Raleway";
     overflow: scroll;
 }
+
+@media(min-width: 1199px) and (max-width: 1440px) {
+    .project-unit {
+        text-align: center;
+        margin: 30px 25%;
+    }
+    .padding-bottom, .padding-left {
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 1199px) {
+    .project-unit {
+        text-align: center;
+    }
+}
