@@ -236,6 +236,10 @@ i.fa.fa-github, i.fa.fa-eye {
 
 /*Contact Page Only*/
 
+.contact-headers {
+    padding-bottom: 15px;
+}
+
 .contact-icon {
     text-decoration: none;
     color: #262626;
@@ -251,7 +255,11 @@ i.fa.fa-github, i.fa.fa-eye {
 
 #form-container {
     background-color: gray;
-    
+    border-radius: 5px;
+}
+
+#follow-me {
+    padding-top: 30px;
 }
 
 #contact-left {
