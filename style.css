@@ -326,10 +326,32 @@ i.fa.fa-github, i.fa.fa-eye {
     height: 500px;
     width: 333px;
     }
+    .contact-headers {
+        text-align: center;
+    }
+    .contact-icon {
+        padding: 0;
+    }
+    #social-media-container {
+        text-align: center;
+    }
 }
 
 @media(max-width: 570px) {
     header h1 {
         font-size: 4em;
+    }
+    .contact-headers {
+        text-align: center;
+    }
+    .contact-icon {
+        padding: 0;
+    }
+    #social-media-container {
+        text-align: center;
+    }
+    #btn-submit {
+        font-size: .7em;
+        margin-right: 17px;
     }
 }
