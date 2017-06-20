@@ -1,4 +1,4 @@
-/*Shared Styles*/
+/* === SHARED STYLES === */
 
 html,
 body,
@@ -21,7 +21,6 @@ body {
     font-size: 8em;
     font-weight: 700;
     letter-spacing: 2.5px;
-    /*    text-transform: uppercase;*/
     position: absolute;
     top: 40%;
     left: 50%;
@@ -78,7 +77,7 @@ article.text-container {
 }
 
 
-/*Landing Page Only*/
+/* === LANDING PAGE ONLY === */
 
 header {
     font-family: "Raleway";
@@ -132,7 +131,7 @@ nav#landing-nav {
 }
 
 
-/*About Page Only*/
+/* === ABOUT PAGE ONLY === */
 
 #about-left {
     background-image: url("img/bkgd-trees-filtered-purple.jpg");
@@ -164,7 +163,7 @@ img#me {
 }
 
 
-/*Projects Page Only*/
+/* === PROJECTS PAGE ONLY === */
 
 .project-icon {
     height: 150px;
@@ -234,7 +233,7 @@ i.fa.fa-github, i.fa.fa-eye {
 }
 
 
-/*Contact Page Only*/
+/* === CONTACT PAGE ONLY === */
 
 .contact-headers {
     padding-bottom: 15px;
@@ -292,6 +291,8 @@ i.fa.fa-github, i.fa.fa-eye {
     overflow: scroll;
 }
 
+/*=== MEDIA QUERIES ===*/
+
 @media(min-width: 1199px) and (max-width: 1440px) {
     .project-unit {
         text-align: center;
@@ -305,5 +306,30 @@ i.fa.fa-github, i.fa.fa-eye {
 @media(max-width: 1199px) {
     .project-unit {
         text-align: center;
+    }
+}
+
+@media(max-width: 907px) {
+    .page-heading {
+        font-size: 5em;
+    }
+    header h1 {
+        font-size: 5em;
+    }
+    header p {
+        font-size: 1em;
+    }
+    nav {
+        font-size: 1em;
+    }
+    img#landing-icon {
+    height: 500px;
+    width: 333px;
+    }
+}
+
+@media(max-width: 570px) {
+    header h1 {
+        font-size: 4em;
     }
 }
