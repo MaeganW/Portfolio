@@ -241,6 +241,16 @@ i.fa.fa-github, i.fa.fa-eye {
     color: #262626;
 }
 
+.form-group {
+    color: #90E6FF;
+    text-shadow: 2px 2px #262626;
+}
+
+#form-container {
+    background-color: gray;
+    
+}
+
 #contact-left {
     background-image: url("img/bkgd-forest-filtered-purple-59.jpg");
     background-position: bottom center;
