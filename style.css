@@ -242,6 +242,9 @@ i.fa.fa-github, i.fa.fa-eye {
 }
 
 .form-group {
+    font-family: "Raleway";
+    font-size: 1.3em;
+    padding: 5px 25px 0 25px;
     color: #90E6FF;
     text-shadow: 2px 2px #262626;
 }
