@@ -243,6 +243,7 @@ i.fa.fa-github, i.fa.fa-eye {
 .contact-icon {
     text-decoration: none;
     color: #262626;
+    padding: 0 25px 0 0;
 }
 
 .form-group {
@@ -256,10 +257,23 @@ i.fa.fa-github, i.fa.fa-eye {
 #form-container {
     background-color: gray;
     border-radius: 5px;
+    padding-bottom: 50px;
+    border: 1px solid #262626;
 }
 
 #follow-me {
     padding-top: 30px;
+}
+
+#btn-submit {
+    float: right;
+    margin-right: 25px;
+    font-family: "Raleway";
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #262626;
+    background-color: #90E6FF;
+    border: 1px solid #262626;
 }
 
 #contact-left {
